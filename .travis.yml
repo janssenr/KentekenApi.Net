@@ -8,4 +8,4 @@ script:
   #- mono ./testrunner/NUnit.ConsoleRunner.3.5.0/tools/nunit3-console.exe ./src/KentekenApi.Tests/bin/V451/KentekenApi.Tests.dll
 notifications:
   email:
-    - rob.janssen@upcmail.nl
+    - rob.janssen@chello.nl
