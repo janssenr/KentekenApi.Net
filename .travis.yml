@@ -1,0 +1,11 @@
+language: csharp
+solution: KentekenApi.Net.sln
+install:
+  - nuget restore KentekenApi.Net.sln
+  #- nuget install NUnit.Runners -Version 3.5.0 -OutputDirectory testrunner
+script:
+  - xbuild /p:Configuration=V451 KentekenApi.Net.sln
+  #- mono ./testrunner/NUnit.ConsoleRunner.3.5.0/tools/nunit3-console.exe ./src/KentekenApi.Tests/bin/V451/KentekenApi.Tests.dll
+notifications:
+  email:
+    - rob.janssen@upcmail.nl

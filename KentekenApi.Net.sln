@@ -11,16 +11,21 @@ Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+		V451|Any CPU = V451|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{AB414C0A-8ECE-4297-BFA1-D8281000D38E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AB414C0A-8ECE-4297-BFA1-D8281000D38E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB414C0A-8ECE-4297-BFA1-D8281000D38E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB414C0A-8ECE-4297-BFA1-D8281000D38E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB414C0A-8ECE-4297-BFA1-D8281000D38E}.V451|Any CPU.ActiveCfg = V451|Any CPU
+		{AB414C0A-8ECE-4297-BFA1-D8281000D38E}.V451|Any CPU.Build.0 = V451|Any CPU
 		{443EF48A-0A25-4271-89CD-8A8E379A8C8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{443EF48A-0A25-4271-89CD-8A8E379A8C8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{443EF48A-0A25-4271-89CD-8A8E379A8C8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{443EF48A-0A25-4271-89CD-8A8E379A8C8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{443EF48A-0A25-4271-89CD-8A8E379A8C8D}.V451|Any CPU.ActiveCfg = V451|Any CPU
+		{443EF48A-0A25-4271-89CD-8A8E379A8C8D}.V451|Any CPU.Build.0 = V451|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
