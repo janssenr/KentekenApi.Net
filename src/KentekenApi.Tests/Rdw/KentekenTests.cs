@@ -20,12 +20,15 @@ namespace KentekenApi.Tests.Rdw
         [Test]
         public void GetKenteken()
         {
+            string kenteken = "40HXPN";
             var filters = new Dictionary<string, string>
             {
-                {"kenteken", "77FTK3"}
+                {"kenteken", kenteken}
             };
             var result = _client.GetKenteken(filters);
             Assert.IsNotNull(result);
+            Assert.IsTrue(result.Count > 0);
+            Assert.AreEqual(kenteken, result[0].Kenteken);
         }
     }
 }

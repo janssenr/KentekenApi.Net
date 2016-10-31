@@ -4,9 +4,7 @@ using KentekenApi.Net.Rdw.Model;
 
 namespace KentekenApi.Net.Rdw.Wrappers
 {
-    [DataContract]
-    public class ResultWrapper
+    public class ResultWrapper : List<KentekenView>
     {
-        public List<KentekenView> Kentekens { get; set; }
     }
 }
